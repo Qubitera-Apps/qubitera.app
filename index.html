@@ -15,11 +15,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .appname-link {
-            color: #0026ff;
+            color: #000;
         }
-        .appname-link:hover {
+            .appname-link:hover {
                 color: #0094ff;
-        }
+                text-decoration: underline;
+            }
     </style>
 </head>
     <body>
@@ -42,9 +43,9 @@
       <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
         <div class="relative pl-16">
           <dt class="text-base/7 font-semibold text-gray-900">
-            <div class="absolute left-0 top-0 flex size-12 items-center justify-center rounded-lg ">
-                <img src="./img/ddLogo3bKucuk.png" alt="Drop Domain Logo" class="rounded-lg" >
-            </div>
+              <div class="absolute left-0 top-0 flex size-12 items-center justify-center rounded-lg ">
+                  <a href="./pendingdelete"><img src="./img/ddLogo3bKucuk.png" alt="Drop Domain Logo" class="rounded-lg"></a>
+              </div>
             <a class="appname-link" href="./pendingdelete">Pending Delete Domains</a>
           </dt>
           <dd class="mt-2 text-base/7 text-gray-600">An application that allows domainers to easily scan approximately 800,000 domains in pending-delete status. Allows to create build once, use always queries.</dd>
